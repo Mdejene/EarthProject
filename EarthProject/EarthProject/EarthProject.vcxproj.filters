@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fx">
+      <UniqueIdentifier>{4ddc726c-557e-4ece-8a5f-db4e52084c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FX_H">
+      <UniqueIdentifier>{444e52f4-2797-4e50-b242-d4cf730e7246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model_H">
+      <UniqueIdentifier>{62385ab4-e6fc-4cad-a75f-dd1cece615b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FX">
+      <UniqueIdentifier>{04285c87-62e6-4d24-ba41-fd3a5965b1d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{5cb89ae0-13a1-41aa-85bf-001e8e4b0d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{1db582cb-c716-4cab-8cc8-72936f0c03a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{5ff464e4-277b-4a6f-8bdb-4030db55d0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stucts">
+      <UniqueIdentifier>{e4bfc301-2889-4ae8-a8a9-48a801baf3e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EarthApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Blur.h">
+      <Filter>Header Files\FX_H</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthFx.h">
+      <Filter>Header Files\FX_H</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderToTextureFx.h">
+      <Filter>Header Files\FX_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Model_H</Filter>
+    </ClInclude>
+    <ClInclude Include="MLoader.h">
+      <Filter>Header Files\Model_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Earth.h">
+      <Filter>Header Files\Model_H</Filter>
+    </ClInclude>
+    <ClInclude Include="FullScreenQuad.h">
+      <Filter>Header Files\Model_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DevConsole.hpp">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtil.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\Stucts</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files\Stucts</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewNormal.h">
+      <Filter>Header Files\Model_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Droids.h">
+      <Filter>Header Files\Model_H</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoSphere.h">
+      <Filter>Header Files\Model_H</Filter>
+    </ClInclude>
+    <ClInclude Include="cVec.h">
+      <Filter>Header Files\Stucts</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicShader.h">
+      <Filter>Header Files\FX_H</Filter>
+    </ClInclude>
+    <ClInclude Include="FX.h">
+      <Filter>Header Files\FX_H</Filter>
+    </ClInclude>
+    <ClInclude Include="3D Noise.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EarthApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Blur.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthFx.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderToTextureFx.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Earth.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="FullScreenQuad.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="MLoader.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="DevConsole.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewNormal.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoSphere.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicShader.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="FX.cpp">
+      <Filter>Source Files\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="3DNoise.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lighthelper.fx">
+      <Filter>Fx</Filter>
+    </None>
+    <None Include="lighting.fx">
+      <Filter>Fx</Filter>
+    </None>
+    <None Include="RenderQuad.fx">
+      <Filter>Fx</Filter>
+    </None>
+    <None Include="Blur.fx">
+      <Filter>Fx</Filter>
+    </None>
+    <None Include="BasicShader.fx">
+      <Filter>Fx</Filter>
+    </None>
+  </ItemGroup>
+</Project>
